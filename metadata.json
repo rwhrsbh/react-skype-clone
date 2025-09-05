@@ -1,0 +1,9 @@
+
+{
+  "name": "React Skype Clone",
+  "description": "A fully functional video and audio calling application designed to mimic the core features of Skype. It includes real-time chat and peer-to-peer calling capabilities, built with React and a Node.js signaling server.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "react-skype-clone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js",
+    "deploy:ngrok": "npm run build && node start-ngrok.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "concurrently": "^9.2.0",
+    "express": "^4.21.2",
+    "ngrok": "^5.0.0-beta.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.1.8",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
